@@ -8,11 +8,10 @@ echo ========================================================
 echo.
 
 :: Locate PHP executable
-where php >nul 2>nul
-if %errorlevel% equ 0 (
-    set "PHP_CMD=php"
-) else (
+if exist "C:\Users\Ankit gupta\AppData\Roaming\Local\lightning-services\php-8.2.27+1\bin\win64\php.exe" (
     set "PHP_CMD=C:\Users\Ankit gupta\AppData\Roaming\Local\lightning-services\php-8.2.27+1\bin\win64\php.exe"
+) else (
+    set "PHP_CMD=php"
 )
 
 :: Locate MySQL executable & data directory
