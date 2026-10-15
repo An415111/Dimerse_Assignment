@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 50" width="260" height="50" fill="none">
+  <!-- Cup & Bean Icon -->
+  <g transform="translate(4, 5)">
+    <rect width="40" height="40" rx="10" fill="#451A03"/>
+    <path d="M12 28h16a3 3 0 0 0 3-3v-9H9v9a3 3 0 0 0 3 3z" fill="#D97706"/>
+    <path d="M31 18h2.5a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H31v-6z" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+    <rect x="8" y="29" width="24" height="2.5" rx="1" fill="#F59E0B"/>
+    <path d="M14 12c0-2.5 2-3.5 2-5.5M20 12c0-2.5 2-3.5 2-5.5M26 12c0-2.5 2-3.5 2-5.5" stroke="#FDE68A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Text Brand -->
+  <text x="56" y="24" font-family="system-ui, -apple-system, 'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="#1C1917" letter-spacing="0.5">BOMBAY CHAI</text>
+  <text x="56" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#B45309" letter-spacing="2">&amp; ROAST CO. · MUMBAI</text>
+</svg>

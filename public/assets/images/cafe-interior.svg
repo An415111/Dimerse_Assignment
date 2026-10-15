@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550" fill="none">
+  <defs>
+    <linearGradient id="wallWarmth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#451A03"/>
+      <stop offset="50%" stop-color="#2D150B"/>
+      <stop offset="100%" stop-color="#1F0E07"/>
+    </linearGradient>
+    <linearGradient id="brassLamp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="40%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="550" fill="url(#wallWarmth)"/>
+
+  <!-- Vintage Wood Wainscoting on lower wall -->
+  <rect x="0" y="240" width="900" height="130" fill="#382112"/>
+  <line x1="0" y1="240" x2="900" y2="240" stroke="#78350F" stroke-width="4"/>
+  <!-- Wainscoting vertical slats -->
+  <g stroke="#23120A" stroke-width="2">
+    <line x1="80" y1="240" x2="80" y2="370"/>
+    <line x1="160" y1="240" x2="160" y2="370"/>
+    <line x1="240" y1="240" x2="240" y2="370"/>
+    <line x1="320" y1="240" x2="320" y2="370"/>
+    <line x1="400" y1="240" x2="400" y2="370"/>
+    <line x1="480" y1="240" x2="480" y2="370"/>
+    <line x1="560" y1="240" x2="560" y2="370"/>
+    <line x1="640" y1="240" x2="640" y2="370"/>
+    <line x1="720" y1="240" x2="720" y2="370"/>
+    <line x1="800" y1="240" x2="800" y2="370"/>
+    <line x1="880" y1="240" x2="880" y2="370"/>
+  </g>
+
+  <!-- Classic Black & White Checkered Heritage Floor -->
+  <path d="M0 370 L900 370 L900 550 L0 550 Z" fill="#E2E8F0"/>
+  <!-- Perspective checkered tiles -->
+  <path d="M0 370 L150 550 L300 550 L100 370 Z" fill="#1E293B"/>
+  <path d="M200 370 L450 550 L600 550 L300 370 Z" fill="#1E293B"/>
+  <path d="M400 370 L750 550 L900 550 L500 370 Z" fill="#1E293B"/>
+  <path d="M600 370 L900 480 L900 410 L700 370 Z" fill="#1E293B"/>
+
+  <!-- Vintage Gilt Beveled Mirror on wall -->
+  <g transform="translate(340, 50)">
+    <rect width="220" height="150" rx="8" fill="#FDE68A" fill-opacity="0.15" stroke="#D97706" stroke-width="6"/>
+    <rect x="10" y="10" width="200" height="130" rx="4" fill="#FEF3C7" fill-opacity="0.08" stroke="#F59E0B" stroke-width="1.5"/>
+    <line x1="20" y1="20" x2="190" y2="130" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.2"/>
+  </g>
+
+  <!-- Hanging Brass Dome Lamps with Warm Cones of Light -->
+  <!-- Left Lamp -->
+  <g transform="translate(220, 0)">
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#78350F" stroke-width="3"/>
+    <path d="M-40 150 C-40 120 40 120 40 150 Z" fill="url(#brassLamp)"/>
+    <!-- Light cone -->
+    <polygon points="-40,150 40,150 180,480 -180,480" fill="#FEF08A" fill-opacity="0.07"/>
+  </g>
+  <!-- Right Lamp -->
+  <g transform="translate(680, 0)">
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#78350F" stroke-width="3"/>
+    <path d="M-40 150 C-40 120 40 120 40 150 Z" fill="url(#brassLamp)"/>
+    <polygon points="-40,150 40,150 180,480 -180,480" fill="#FEF08A" fill-opacity="0.07"/>
+  </g>
+
+  <!-- Heritage Marble Table with Bentwood Chairs (Foreground Left) -->
+  <g transform="translate(140, 360)">
+    <!-- Table shadow -->
+    <ellipse cx="80" cy="90" rx="90" ry="22" fill="#0F172A" fill-opacity="0.5"/>
+    <!-- Cast iron pedestal base -->
+    <path d="M74 45 L74 85 L60 92 L100 92 L86 85 L86 45 Z" fill="#0F172A"/>
+    <!-- Marble top -->
+    <ellipse cx="80" cy="45" rx="95" ry="24" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+    <!-- Cups on table -->
+    <ellipse cx="65" cy="40" rx="8" ry="4" fill="#D97706"/>
+    <ellipse cx="100" cy="42" rx="7" ry="3.5" fill="#B45309"/>
+    <!-- Left bentwood chair -->
+    <path d="M-20 0 Q0 -30 20 10 L25 75 M-10 40 L30 40" stroke="#451A03" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Right bentwood chair -->
+    <path d="M175 0 Q155 -30 135 10 L130 75 M165 40 L125 40" stroke="#451A03" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Espresso & Chai Bar Counter (Right) -->
+  <g transform="translate(560, 310)">
+    <!-- Counter body -->
+    <polygon points="0,50 340,30 340,170 0,170" fill="#292524" stroke="#44403C" stroke-width="2"/>
+    <!-- Polished brass counter rail -->
+    <polygon points="-15,45 340,25 340,35 -15,55" fill="url(#brassLamp)"/>
+    <!-- Vintage 2-group lever espresso machine -->
+    <rect x="70" y="-10" width="90" height="48" rx="4" fill="#0284C7" stroke="#0369A1" stroke-width="2"/>
+    <rect x="80" y="5" width="70" height="15" fill="#E2E8F0"/>
+    <!-- Chrome levers -->
+    <line x1="95" y1="-10" x2="85" y2="-45" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="85" cy="-45" r="5" fill="#0F172A"/>
+    <line x1="135" y1="-10" x2="125" y2="-45" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="125" cy="-45" r="5" fill="#0F172A"/>
+    <!-- Steaming cups on counter -->
+    <ellipse cx="180" cy="35" rx="9" ry="4" fill="#D97706"/>
+    <path d="M180 30 Q185 20 180 12" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.5" fill="none"/>
+  </g>
+</svg>

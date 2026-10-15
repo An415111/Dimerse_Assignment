@@ -1,0 +1,8 @@
+# Robots.txt for Bombay Chai & Roast Co.
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /database/
+
+# Reference to XML Sitemap
+Sitemap: http://localhost:8000/sitemap.xml

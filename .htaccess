@@ -1,0 +1,26 @@
+# Apache mod_rewrite for clean URLs
+# Bombay Chai & Roast Co.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Allow access to existing files & directories in public/ or root
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Redirect /assets/ requests to public/assets/ if not found directly
+  RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+  RewriteRule ^(assets/.+)$ public/$1 [L]
+
+  # Redirect all other requests to index.php
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# Security: Deny direct web access to sensitive directories
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(schema\.sql|seed\.sql|\.env|\.git)">
+    Require all denied
+  </FilesMatch>
+</IfModule>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <defs>
+    <linearGradient id="bgChai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D150B"/>
+      <stop offset="50%" stop-color="#451A03"/>
+      <stop offset="100%" stop-color="#1F0E07"/>
+    </linearGradient>
+    <linearGradient id="teaLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="40%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="25%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="75%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="woodTable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3E2012"/>
+      <stop offset="100%" stop-color="#23120A"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgChai)"/>
+
+  <!-- Warm ambient light -->
+  <circle cx="400" cy="220" r="220" fill="#F59E0B" fill-opacity="0.12" filter="url(#softGlow)"/>
+
+  <!-- Wooden Table Surface -->
+  <path d="M0 360 L800 360 L800 500 L0 500 Z" fill="url(#woodTable)"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#5C2E17" stroke-width="3"/>
+  <line x1="0" y1="410" x2="800" y2="410" stroke="#2B140A" stroke-width="2" stroke-dasharray="250 80"/>
+  <line x1="0" y1="455" x2="800" y2="455" stroke="#2B140A" stroke-width="2" stroke-dasharray="180 120"/>
+
+  <!-- Brass Wire Chai Carrier (Traditional Mumbai Caddy) -->
+  <g stroke="#D97706" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Stand legs and frame -->
+    <path d="M250 375 L550 375"/>
+    <path d="M260 375 L260 270 L540 270 L540 375"/>
+    <path d="M400 270 L400 130 Q400 100 430 100 L440 100"/>
+    <!-- Wire rings holding glasses -->
+    <ellipse cx="320" cy="275" rx="48" ry="14" stroke-width="3"/>
+    <ellipse cx="480" cy="275" rx="48" ry="14" stroke-width="3"/>
+    <!-- Central handle grip -->
+    <rect x="385" y="90" width="55" height="18" rx="6" fill="#78350F" stroke="#B45309" stroke-width="2"/>
+  </g>
+
+  <!-- Left Cutting Glass -->
+  <g transform="translate(280, 200)">
+    <!-- Glass body background -->
+    <polygon points="12,160 68,160 76,40 4,40" fill="#1C1917" fill-opacity="0.5"/>
+    <!-- Tea liquid -->
+    <polygon points="15,155 65,155 72,75 8,75" fill="url(#teaLiquid)"/>
+    <!-- Tea surface meniscus -->
+    <ellipse cx="40" cy="75" rx="32" ry="7" fill="#FDE68A" fill-opacity="0.8"/>
+    <!-- Glass body with ribbed facets -->
+    <polygon points="10,160 70,160 78,35 2,35" fill="url(#glassGrad)" stroke="#FEF3C7" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Fluted facet vertical lines -->
+    <line x1="20" y1="42" x2="24" y2="155" stroke="#FFF" stroke-width="1.2" stroke-opacity="0.3"/>
+    <line x1="40" y1="42" x2="40" y2="155" stroke="#FFF" stroke-width="1.5" stroke-opacity="0.4"/>
+    <line x1="60" y1="42" x2="56" y2="155" stroke="#FFF" stroke-width="1.2" stroke-opacity="0.3"/>
+    <!-- Glass rim -->
+    <ellipse cx="40" cy="35" rx="38" ry="6" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.7" fill="none"/>
+    <!-- Steam wisps -->
+    <path d="M30 25 Q20 5 32 -15 T25 -35" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round" stroke-opacity="0.45" fill="none"/>
+    <path d="M48 20 Q58 2 48 -18 T52 -40" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.5" fill="none"/>
+  </g>
+
+  <!-- Right Cutting Glass -->
+  <g transform="translate(440, 200)">
+    <polygon points="12,160 68,160 76,40 4,40" fill="#1C1917" fill-opacity="0.5"/>
+    <polygon points="15,155 65,155 72,70 8,70" fill="url(#teaLiquid)"/>
+    <ellipse cx="40" cy="70" rx="32" ry="7" fill="#FDE68A" fill-opacity="0.85"/>
+    <polygon points="10,160 70,160 78,35 2,35" fill="url(#glassGrad)" stroke="#FEF3C7" stroke-width="1.5" stroke-opacity="0.6"/>
+    <line x1="20" y1="42" x2="24" y2="155" stroke="#FFF" stroke-width="1.2" stroke-opacity="0.3"/>
+    <line x1="40" y1="42" x2="40" y2="155" stroke="#FFF" stroke-width="1.5" stroke-opacity="0.4"/>
+    <line x1="60" y1="42" x2="56" y2="155" stroke="#FFF" stroke-width="1.2" stroke-opacity="0.3"/>
+    <ellipse cx="40" cy="35" rx="38" ry="6" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.7" fill="none"/>
+    <path d="M35 20 Q45 0 35 -20 T40 -45" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.55" fill="none"/>
+  </g>
+
+  <!-- Spices on the Table (Cardamom, Cinnamon, Star Anise) -->
+  <!-- Cardamom Pods -->
+  <g transform="translate(180, 400)">
+    <ellipse cx="10" cy="10" rx="9" ry="5" fill="#4D7C0F" transform="rotate(-25 10 10)"/>
+    <line x1="3" y1="13" x2="17" y2="7" stroke="#365314" stroke-width="1.5"/>
+    <ellipse cx="28" cy="18" rx="8" ry="4.5" fill="#65A30D" transform="rotate(30 28 18)"/>
+  </g>
+  <!-- Cinnamon stick -->
+  <g transform="translate(580, 410) rotate(-15)">
+    <rect width="90" height="14" rx="7" fill="#78350F"/>
+    <path d="M0 7 C15 3 75 3 90 7" stroke="#92400E" stroke-width="2" fill="none"/>
+    <ellipse cx="5" cy="7" rx="4" ry="7" fill="#451A03"/>
+  </g>
+  <!-- Fresh Mint Leaf -->
+  <g transform="translate(225, 420)">
+    <path d="M0 15 Q15 -5 30 10 Q15 25 0 15 Z" fill="#15803D"/>
+    <path d="M3 14 Q15 6 27 11" stroke="#166534" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Badge / Accent -->
+  <g transform="translate(60, 60)">
+    <rect width="170" height="36" rx="18" fill="#D97706" fill-opacity="0.2" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="85" y="23" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FDE68A" text-anchor="middle" letter-spacing="1.5">MUMBAI TAPRI CRAFT</text>
+  </g>
+</svg>

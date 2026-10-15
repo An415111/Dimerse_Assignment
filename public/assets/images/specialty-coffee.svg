@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <defs>
+    <linearGradient id="bgCoffee" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E140F"/>
+      <stop offset="60%" stop-color="#140D0A"/>
+      <stop offset="100%" stop-color="#0A0605"/>
+    </linearGradient>
+    <linearGradient id="coffeeBrew" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="50%" stop-color="#451A03"/>
+      <stop offset="100%" stop-color="#241006"/>
+    </linearGradient>
+    <linearGradient id="dripperCeramic" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="glassCarafe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgCoffee)"/>
+
+  <!-- Warm spotlight -->
+  <circle cx="400" cy="240" r="230" fill="#D97706" fill-opacity="0.12" filter="drop-shadow(0 0 40px #B45309)"/>
+
+  <!-- Marble Countertop -->
+  <path d="M0 370 L800 370 L800 500 L0 500 Z" fill="#1C1917"/>
+  <line x1="0" y1="370" x2="800" y2="370" stroke="#44403C" stroke-width="2"/>
+  <path d="M80 400 Q250 440 380 410 T720 450" stroke="#292524" stroke-width="2" fill="none"/>
+
+  <!-- Coffee Carafe (Glass Server) -->
+  <g transform="translate(400, 310)">
+    <!-- Base shadow -->
+    <ellipse cx="0" cy="65" rx="75" ry="16" fill="#000000" fill-opacity="0.6"/>
+    <!-- Coffee liquid inside carafe -->
+    <path d="M-55 58 L-45 10 L45 10 L55 58 Z" fill="url(#coffeeBrew)"/>
+    <ellipse cx="0" cy="10" rx="45" ry="8" fill="#B45309" fill-opacity="0.8"/>
+    <!-- Glass body -->
+    <path d="M-65 62 L-35 -35 L35 -35 L65 62 Q0 75 -65 62 Z" fill="url(#glassCarafe)" stroke="#FFFFFF" stroke-width="1.8" stroke-opacity="0.5"/>
+    <!-- Glass markings (cups) -->
+    <line x1="-30" y1="15" x2="-20" y2="15" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.4"/>
+    <line x1="-34" y1="30" x2="-24" y2="30" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.4"/>
+    <line x1="-38" y1="45" x2="-28" y2="45" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.4"/>
+    <!-- Glass handle -->
+    <path d="M60 0 Q95 10 90 40 Q85 60 55 55" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round" fill="none" stroke-opacity="0.7"/>
+  </g>
+
+  <!-- Ceramic V60 Dripper Cone -->
+  <g transform="translate(400, 200)">
+    <!-- Dripper collar ring resting on carafe -->
+    <ellipse cx="0" cy="72" rx="42" ry="8" fill="#CBD5E1" stroke="#94A3B8" stroke-width="2"/>
+    <!-- Cone body -->
+    <polygon points="-80,-20 80,-20 22,70 -22,70" fill="url(#dripperCeramic)" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Cone fluted spiral ribs -->
+    <path d="M-60 -15 Q-40 25 -15 65" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+    <path d="M-20 -18 Q-5 20 0 65" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+    <path d="M20 -18 Q10 20 10 65" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+    <path d="M60 -15 Q40 25 18 65" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+    <!-- Paper filter cone visible inside -->
+    <polygon points="-75,-16 75,-16 18,65 -18,65" fill="#FEF3C7"/>
+    <!-- Coffee grounds bed -->
+    <ellipse cx="0" cy="0" rx="55" ry="12" fill="#382112"/>
+    <ellipse cx="0" cy="-2" rx="45" ry="8" fill="#451A03"/>
+    <!-- Dripper top rim -->
+    <ellipse cx="0" cy="-20" rx="80" ry="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+    <!-- Dripper ear handle -->
+    <path d="M-80 -15 Q-115 -10 -105 10 Q-95 25 -70 20" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Dripping coffee drop from cone into server -->
+  <g transform="translate(400, 280)">
+    <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#B45309"/>
+    <!-- Ripple ring on coffee surface below -->
+    <ellipse cx="0" cy="38" rx="14" ry="4" stroke="#D97706" stroke-width="1" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Steam rising from dripper -->
+  <path d="M380 160 Q365 130 385 105 T370 70" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round" stroke-opacity="0.4" fill="none"/>
+  <path d="M420 150 Q435 120 415 95 T430 60" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.5" fill="none"/>
+
+  <!-- Roasted Coffee Beans Scattered on Marble -->
+  <g fill="#451A03" stroke="#2D150B" stroke-width="1.2">
+    <!-- Bean 1 -->
+    <g transform="translate(240, 410) rotate(20)">
+      <ellipse cx="0" cy="0" rx="12" ry="8"/>
+      <path d="M-8 0 Q0 -3 8 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Bean 2 -->
+    <g transform="translate(270, 430) rotate(-40)">
+      <ellipse cx="0" cy="0" rx="11" ry="7"/>
+      <path d="M-7 0 Q0 -2 7 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Bean 3 -->
+    <g transform="translate(225, 435) rotate(10)">
+      <ellipse cx="0" cy="0" rx="10" ry="6.5"/>
+      <path d="M-6 0 Q0 -2 6 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Bean 4 (Right) -->
+    <g transform="translate(560, 420) rotate(-15)">
+      <ellipse cx="0" cy="0" rx="13" ry="8.5"/>
+      <path d="M-9 0 Q0 3 9 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Bean 5 (Right) -->
+    <g transform="translate(595, 405) rotate(50)">
+      <ellipse cx="0" cy="0" rx="11" ry="7"/>
+      <path d="M-7 0 Q0 -2 7 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Bean 6 (Right) -->
+    <g transform="translate(580, 440) rotate(-30)">
+      <ellipse cx="0" cy="0" rx="10" ry="6"/>
+      <path d="M-6 0 Q0 2 6 0" stroke="#D97706" stroke-width="1.5" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Badge / Accent -->
+  <g transform="translate(60, 60)">
+    <rect width="180" height="36" rx="18" fill="#D97706" fill-opacity="0.2" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="90" y="23" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FDE68A" text-anchor="middle" letter-spacing="1.5">SPECIALTY ROASTERY</text>
+  </g>
+</svg>

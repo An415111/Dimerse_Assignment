@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" fill="none">
+  <defs>
+    <linearGradient id="skyMumbai" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B18"/>
+      <stop offset="60%" stop-color="#2D241E"/>
+      <stop offset="100%" stop-color="#3D2E24"/>
+    </linearGradient>
+    <linearGradient id="warmInterior" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="stoneFacade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="50%" stop-color="#57534E"/>
+      <stop offset="100%" stop-color="#3F3B37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#skyMumbai)"/>
+
+  <!-- Distant Mumbai Kala Ghoda Heritage Silhouette -->
+  <path d="M0 240 L60 230 L100 240 L160 210 L190 240 L280 235 L340 180 L380 235 L520 225 L600 240 L680 195 L740 240 L880 230 L1000 240 L1000 600 L0 600 Z" fill="#1C1917" fill-opacity="0.6"/>
+
+  <!-- Ambient Golden Glow from Cafe Windows -->
+  <circle cx="500" cy="380" r="300" fill="#F59E0B" fill-opacity="0.14" filter="blur(40px)"/>
+
+  <!-- Stone Heritage Cafe Facade (Indo-Saracenic & Art Deco Architecture) -->
+  <rect x="120" y="200" width="760" height="340" fill="url(#stoneFacade)" rx="4"/>
+  <!-- Decorative Cornice & Moldings -->
+  <rect x="100" y="185" width="800" height="15" fill="#292524" rx="2"/>
+  <rect x="110" y="172" width="780" height="13" fill="#1C1917" rx="2"/>
+  <!-- Pediment with Cafe Inscription -->
+  <polygon points="360,172 500,120 640,172" fill="#292524"/>
+  <text x="500" y="160" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="700" fill="#FDE68A" text-anchor="middle" letter-spacing="3">ESTD. 1928 · KALA GHODA</text>
+
+  <!-- Cafe Canopy / Awning (Striped Deep Terracotta & Cream) -->
+  <path d="M140 250 L860 250 L880 300 L120 300 Z" fill="#78350F"/>
+  <!-- Awning stripes -->
+  <g fill="#FDE68A" fill-opacity="0.85">
+    <polygon points="170,250 200,250 205,300 172,300"/>
+    <polygon points="240,250 270,250 275,300 242,300"/>
+    <polygon points="310,250 340,250 345,300 312,300"/>
+    <polygon points="380,250 410,250 415,300 382,300"/>
+    <polygon points="450,250 480,250 485,300 452,300"/>
+    <polygon points="520,250 550,250 555,300 522,300"/>
+    <polygon points="590,250 620,250 625,300 592,300"/>
+    <polygon points="660,250 690,250 695,300 662,300"/>
+    <polygon points="730,250 760,250 765,300 732,300"/>
+    <polygon points="800,250 830,250 835,300 802,300"/>
+  </g>
+  <!-- Scalloped awning fringe -->
+  <path d="M120 300 Q140 315 160 300 Q180 315 200 300 Q220 315 240 300 Q260 315 280 300 Q300 315 320 300 Q340 315 360 300 Q380 315 400 300 Q420 315 440 300 Q460 315 480 300 Q500 315 520 300 Q540 315 560 300 Q580 315 600 300 Q620 315 640 300 Q660 315 680 300 Q700 315 720 300 Q740 315 760 300 Q780 315 800 300 Q820 315 840 300 Q860 315 880 300" fill="#78350F"/>
+
+  <!-- Large Arched Bay Windows Glowing with Warm Light -->
+  <!-- Left Window -->
+  <g transform="translate(180, 330)">
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 180 L0 180 Z" fill="url(#warmInterior)"/>
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 180 L0 180 Z" stroke="#1C1917" stroke-width="8" fill="none"/>
+    <!-- Window mullions -->
+    <line x1="80" y1="0" x2="80" y2="180" stroke="#1C1917" stroke-width="4"/>
+    <line x1="0" y1="60" x2="160" y2="60" stroke="#1C1917" stroke-width="4"/>
+    <line x1="0" y1="120" x2="160" y2="120" stroke="#1C1917" stroke-width="4"/>
+    <!-- Silhouettes of cafe patrons inside enjoying chai -->
+    <circle cx="50" cy="110" r="14" fill="#451A03"/>
+    <path d="M28 150 C28 128 72 128 72 150 Z" fill="#451A03"/>
+    <circle cx="110" cy="115" r="13" fill="#451A03"/>
+    <path d="M90 150 C90 132 130 132 130 150 Z" fill="#451A03"/>
+    <!-- Table silhouette inside -->
+    <line x1="40" y1="150" x2="120" y2="150" stroke="#451A03" stroke-width="4"/>
+    <!-- Teacup steam -->
+    <path d="M80 145 Q85 138 80 130" stroke="#FFF" stroke-width="1.5" stroke-opacity="0.6" fill="none"/>
+  </g>
+
+  <!-- Center Double Doorway with Fanlight -->
+  <g transform="translate(420, 310)">
+    <!-- Arched transom -->
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 230 L0 230 Z" fill="url(#warmInterior)"/>
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 230 L0 230 Z" stroke="#1C1917" stroke-width="8" fill="none"/>
+    <!-- Door panels -->
+    <line x1="80" y1="60" x2="80" y2="230" stroke="#1C1917" stroke-width="5"/>
+    <rect x="15" y="75" width="50" height="85" fill="#FFFFFF" fill-opacity="0.3" stroke="#1C1917" stroke-width="3"/>
+    <rect x="95" y="75" width="50" height="85" fill="#FFFFFF" fill-opacity="0.3" stroke="#1C1917" stroke-width="3"/>
+    <!-- Brass handles -->
+    <rect x="70" y="130" width="4" height="20" rx="2" fill="#F59E0B"/>
+    <rect x="86" y="130" width="4" height="20" rx="2" fill="#F59E0B"/>
+    <!-- Hanging Welcome Lantern -->
+    <path d="M80 0 L80 30" stroke="#1C1917" stroke-width="3"/>
+    <polygon points="70,30 90,30 95,50 65,50" fill="#F59E0B" stroke="#1C1917" stroke-width="2"/>
+  </g>
+
+  <!-- Right Window -->
+  <g transform="translate(660, 330)">
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 180 L0 180 Z" fill="url(#warmInterior)"/>
+    <path d="M0 60 A80 80 0 0 1 160 60 L160 180 L0 180 Z" stroke="#1C1917" stroke-width="8" fill="none"/>
+    <line x1="80" y1="0" x2="80" y2="180" stroke="#1C1917" stroke-width="4"/>
+    <line x1="0" y1="60" x2="160" y2="60" stroke="#1C1917" stroke-width="4"/>
+    <line x1="0" y1="120" x2="160" y2="120" stroke="#1C1917" stroke-width="4"/>
+    <!-- Barista silhouette at espresso machine -->
+    <circle cx="80" cy="100" r="14" fill="#451A03"/>
+    <path d="M55 145 C55 120 105 120 105 145 Z" fill="#451A03"/>
+    <!-- Espresso machine outline -->
+    <rect x="100" y="120" width="45" height="25" rx="3" fill="#292524"/>
+    <path d="M110 115 L110 110" stroke="#F59E0B" stroke-width="2"/>
+  </g>
+
+  <!-- Cobblestone Pavement & Outdoor Patio -->
+  <rect x="0" y="530" width="1000" height="70" fill="#1C1917"/>
+  <line x1="0" y1="530" x2="1000" y2="530" stroke="#44403C" stroke-width="4"/>
+  <!-- Pavement grid -->
+  <g stroke="#292524" stroke-width="1.5">
+    <line x1="0" y1="565" x2="1000" y2="565"/>
+    <line x1="80" y1="530" x2="80" y2="600"/>
+    <line x1="200" y1="530" x2="200" y2="600"/>
+    <line x1="320" y1="530" x2="320" y2="600"/>
+    <line x1="440" y1="530" x2="440" y2="600"/>
+    <line x1="560" y1="530" x2="560" y2="600"/>
+    <line x1="680" y1="530" x2="680" y2="600"/>
+    <line x1="800" y1="530" x2="800" y2="600"/>
+    <line x1="920" y1="530" x2="920" y2="600"/>
+  </g>
+
+  <!-- Outdoor Wrought Iron Cafe Table & Chairs -->
+  <g transform="translate(80, 480)">
+    <!-- Table -->
+    <ellipse cx="60" cy="30" rx="35" ry="10" fill="#78350F" stroke="#1C1917" stroke-width="2"/>
+    <line x1="60" y1="38" x2="60" y2="65" stroke="#1C1917" stroke-width="3"/>
+    <!-- Left chair -->
+    <path d="M15 15 Q25 -10 30 25 L32 60 M22 40 L38 40" stroke="#1C1917" stroke-width="2.5" fill="none"/>
+    <!-- Right chair -->
+    <path d="M105 15 Q95 -10 90 25 L88 60 M98 40 L82 40" stroke="#1C1917" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Potted Ficus Tree in Terracotta Planter -->
+  <g transform="translate(890, 440)">
+    <polygon points="15,90 65,90 75,50 5,50" fill="#9A3412" stroke="#7C2D12" stroke-width="2"/>
+    <!-- Foliage -->
+    <circle cx="40" cy="30" r="32" fill="#15803D"/>
+    <circle cx="20" cy="15" r="24" fill="#166534"/>
+    <circle cx="58" cy="20" r="26" fill="#166534"/>
+  </g>
+</svg>

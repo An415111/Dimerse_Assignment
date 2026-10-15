@@ -1,0 +1,16 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP & Server Logs
+*.log
+error_log
+
+# Fallback cache
+*.sqlite-journal
+
+# Node / Lighthouse temp outputs
+node_modules/
+package-lock.json
+lighthouse-report.html

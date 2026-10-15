@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <defs>
+    <linearGradient id="bgBun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#382112"/>
+      <stop offset="60%" stop-color="#24140A"/>
+      <stop offset="100%" stop-color="#140904"/>
+    </linearGradient>
+    <linearGradient id="bunCrust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="40%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="bunCrumb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="butterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="60%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#EAB308"/>
+    </linearGradient>
+    <linearGradient id="ceramicPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAF9"/>
+      <stop offset="100%" stop-color="#E7E5E4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgBun)"/>
+
+  <!-- Warm spotlight -->
+  <circle cx="380" cy="260" r="240" fill="#F59E0B" fill-opacity="0.1" filter="drop-shadow(0 0 30px #F59E0B)"/>
+
+  <!-- Heritage Marble Table Surface -->
+  <path d="M0 340 L800 340 L800 500 L0 500 Z" fill="#292524"/>
+  <line x1="0" y1="340" x2="800" y2="340" stroke="#44403C" stroke-width="2"/>
+  <!-- Marble subtle veining -->
+  <path d="M40 370 Q180 390 260 440 T450 480" stroke="#57534E" stroke-width="1.2" fill="none" stroke-opacity="0.5"/>
+  <path d="M500 360 Q620 400 750 380" stroke="#57534E" stroke-width="1.2" fill="none" stroke-opacity="0.5"/>
+
+  <!-- Vintage Ceramic Serving Plate with Floral Cobalt Rim -->
+  <ellipse cx="380" cy="350" rx="260" ry="85" fill="url(#ceramicPlate)" stroke="#CBD5E1" stroke-width="4"/>
+  <!-- Plate Inner Depression -->
+  <ellipse cx="380" cy="350" rx="215" ry="68" fill="#F8FAFC" stroke="#0284C7" stroke-width="2" stroke-dasharray="16 8"/>
+
+  <!-- Bun Bottom Half -->
+  <ellipse cx="360" cy="340" rx="130" ry="46" fill="url(#bunCrumb)"/>
+  <path d="M230 340 Q360 375 490 340 Q490 355 360 370 Q230 355 230 340 Z" fill="url(#bunCrust)"/>
+
+  <!-- Melting Whipped Salted Butter (Maska) overflowing the rim -->
+  <path d="M240 338 C270 345 300 342 330 348 C360 355 390 345 420 350 C450 348 480 342 485 336 C490 330 460 326 420 326 C360 324 300 326 250 330 Z" fill="url(#butterGrad)"/>
+  <!-- Droplet of dripping butter -->
+  <ellipse cx="340" cy="358" rx="8" ry="12" fill="#FACC15"/>
+  <ellipse cx="440" cy="354" rx="6" ry="9" fill="#FEF08A"/>
+
+  <!-- Bun Top Half (tilted back slightly to reveal the butter) -->
+  <g transform="translate(360, 275)">
+    <!-- Crust dome -->
+    <path d="M-135 45 C-135 -30 135 -30 135 45 C90 55 -90 55 -135 45 Z" fill="url(#bunCrust)"/>
+    <!-- Glossy glaze highlight -->
+    <ellipse cx="-20" cy="0" rx="75" ry="24" fill="#FEF3C7" fill-opacity="0.3" transform="rotate(-15)"/>
+    <ellipse cx="35" cy="5" rx="40" ry="14" fill="#FFFFFF" fill-opacity="0.25"/>
+    <!-- Subtle sesame / poppy sprinkle accents -->
+    <circle cx="-50" cy="20" r="2.5" fill="#FEF3C7"/>
+    <circle cx="-20" cy="28" r="2" fill="#FEF3C7"/>
+    <circle cx="10" cy="22" r="2.5" fill="#FEF3C7"/>
+    <circle cx="50" cy="18" r="2" fill="#FEF3C7"/>
+    <circle cx="75" cy="26" r="2" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Cup of Irani Chai on Saucer in background -->
+  <g transform="translate(620, 260)">
+    <ellipse cx="0" cy="45" rx="60" ry="16" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+    <ellipse cx="0" cy="35" rx="40" ry="12" fill="#451A03"/>
+    <path d="M-35 15 C-35 35 35 35 35 15 L32 -5 L-32 -5 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="32" ry="9" fill="#D97706"/>
+    <!-- Chai steam -->
+    <path d="M-5 -15 Q-15 -35 -5 -50" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5" fill="none"/>
+    <path d="M10 -15 Q20 -35 10 -50" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5" fill="none"/>
+    <!-- Cup handle -->
+    <path d="M33 5 Q48 10 40 25 Q32 30 28 25" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Bread crumbs on the table -->
+  <circle cx="170" cy="370" r="3" fill="#D97706"/>
+  <circle cx="190" cy="385" r="2" fill="#F59E0B"/>
+  <circle cx="560" cy="365" r="2.5" fill="#D97706"/>
+  <circle cx="540" cy="380" r="1.8" fill="#FDE68A"/>
+
+  <!-- Badge / Accent -->
+  <g transform="translate(60, 60)">
+    <rect width="180" height="36" rx="18" fill="#D97706" fill-opacity="0.2" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="90" y="23" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FDE68A" text-anchor="middle" letter-spacing="1.5">PARSI BAKEHOUSE CRAFT</text>
+  </g>
+</svg>
